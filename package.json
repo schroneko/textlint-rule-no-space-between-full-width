@@ -1,0 +1,41 @@
+{
+  "name": "textlint-rule-no-space-between-full-width",
+  "version": "1.0.0",
+  "description": "textlint rule to disallow spaces between full-width characters",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/schroneko/textlint-rule-no-space-between-full-width#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schroneko/textlint-rule-no-space-between-full-width.git"
+  },
+  "bugs": {
+    "url": "https://github.com/schroneko/textlint-rule-no-space-between-full-width/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "textlint",
+    "rule",
+    "japanese",
+    "spacing",
+    "full-width"
+  ],
+  "author": "schroneko",
+  "license": "MIT",
+  "devDependencies": {
+    "@textlint/types": "^14.0.0",
+    "textlint-tester": "^14.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^2.0.0"
+  },
+  "peerDependencies": {
+    "textlint": ">=14.0.0"
+  }
+}
