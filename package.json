@@ -30,10 +30,11 @@
   "author": "schroneko",
   "license": "MIT",
   "devDependencies": {
-    "@textlint/types": "^14.0.0",
-    "textlint-tester": "^14.0.0",
+    "@textlint/types": "^15.7.1",
+    "textlint": "^15.7.1",
+    "textlint-tester": "^15.7.1",
     "typescript": "^5.0.0",
-    "vitest": "^2.0.0"
+    "vitest": "^4.1.10"
   },
   "peerDependencies": {
     "textlint": ">=14.0.0"
